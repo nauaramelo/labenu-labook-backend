@@ -101,7 +101,7 @@ npm start
 - Criação da tabela de usuários:
 ```
 CREATE TABLE UsersLabook (
-	id VARCHAR(255) PRIMARY KEY,
+    id VARCHAR(255) PRIMARY KEY,
     email VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
@@ -113,7 +113,7 @@ CREATE TABLE RelationsLabook (
     id_inviter VARCHAR(255) NOT NULL,
     id_invited VARCHAR(255) NOT NULL,
     FOREIGN KEY (id_inviter) REFERENCES UsersLabook(id),
-	FOREIGN KEY (id_invited) REFERENCES UsersLabook(id)
+    FOREIGN KEY (id_invited) REFERENCES UsersLabook(id)
 );
 ```
 - Criação da tabela de Posts:
@@ -125,7 +125,7 @@ CREATE TABLE PostsLabook (
     date DATE NOT NULL,
     type VARCHAR(255) NOT NULL,
     id_user VARCHAR(255) NOT NULL,
-	FOREIGN KEY (id_user) REFERENCES UsersLabook(id)
+    FOREIGN KEY (id_user) REFERENCES UsersLabook(id)
 );
 ```
 - Criação da tabela de Refresh Token: 
