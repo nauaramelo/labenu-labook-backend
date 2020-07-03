@@ -91,9 +91,19 @@ Entre no projeto e instale as dependências através do comando:
 ```
 npm install
 ```
-Por último, suba a aplicação: 
+Suba a aplicação: 
 ```
 npm start
+```
+Por último, crie um arquivo .env na raiz do projeto com as seguintes variáveis:
+```
+DB_HOST = 
+DB_USER = 
+DB_PASSWORD = 
+DB_NAME = 
+BCRYPT_COST =  
+EXPIRES_IN = 
+JWT_KEY = 
 ```
 
 ## Iniciando/Configurando o Banco de Dados 🗃️
