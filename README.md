@@ -167,7 +167,7 @@ CREATE TABLE RefreshTokenLabook (
 
 ## Licença 
 
-[MIT License](https://opensource.org/licenses/MIT)
+[MIT License](https://github.com/nauaramelo/labenu-labook-backend/blob/master/LICENSE)
 
 Copyright :copyright: 2020 - Labook
 
